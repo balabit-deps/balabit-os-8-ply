@@ -1,3 +1,9 @@
+ply (3.11-3build1bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Thu, 18 Mar 2021 12:23:39 +0100
+
 ply (3.11-3build1) focal; urgency=medium
 
   * No-change rebuild to generate dependencies on python2.
