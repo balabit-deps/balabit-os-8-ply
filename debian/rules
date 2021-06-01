@@ -17,9 +17,9 @@ override_dh_auto_build:
 	pod2man debian/dh_python3-ply > dh_python3-ply.1
 
 override_dh_gencontrol:
-	echo "python-ply:Provides=$$(PYTHONPATH=. python debian/virtual-packages.py python-ply)" \
+	echo "python-ply:Provides=$$(PYTHONPATH=. python2.7 debian/virtual-packages.py python-ply)" \
 		>> debian/python-ply.substvars
-	echo "python3-ply:Provides=$$(PYTHONPATH=. python debian/virtual-packages.py python3-ply)" \
+	echo "python3-ply:Provides=$$(PYTHONPATH=. python2.7 debian/virtual-packages.py python3-ply)" \
 		>> debian/python3-ply.substvars
 	dh_gencontrol
 
