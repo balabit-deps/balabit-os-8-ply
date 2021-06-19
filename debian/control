@@ -1,7 +1,8 @@
 Source: ply
 Section: python
 Priority: optional
-Maintainer: JCF Ploemen (jcfp) <linux@jcf.pm>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: JCF Ploemen (jcfp) <linux@jcf.pm>
 Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Build-Depends:
  debhelper (>= 11~),
